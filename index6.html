@@ -11,6 +11,18 @@
     <link rel="stylesheet" href="style/bootstrap-flex.css">
     <link rel="stylesheet" href="style/style.css">
 
+    <script src="js/smooth-scroll.min.js"></script>
+    <script>
+      smoothScroll.init({
+        selector: '[data-scroll]', //Selector fot links (must be a class, ID, data attribute, or element tag)
+        selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+        speed: 2000, // Integer. How fast to complete the scroll in milliseconds
+        easing: 'easeInOutCubic', // Easing pattern to use
+        offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+        callback: function ( anchor, toggle ) {} //function to run after scrolling
+      });
+    </script>
+
   <div class="container-fluid">
     <div class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-1" >
       <div class="row">
@@ -26,19 +38,19 @@
 <div class="container-fluid navbar-fixed-top">
     <div class="row flex-items-xs-between menu-1 flex-items-xs-middle">
       <div class="col-xs-2">
-        <a data-scroll href="#sec-1" class="btn btn-yellow" role="button" aria-pressed="true"> operacion luz integral del sistema</a>
+        <a data-scroll href="#sec-1" class="btn btn-yellow" role="button" aria-pressed="true">Comienzo</a>
       </div>
       <div class="col-xs-2">
-        <a data-scroll href="#sec-2" class="btn btn-dark" role="button" aria-pressed="true">proyecta el ejecutivo</a>
+        <a data-scroll href="#sec-2" class="btn btn-dark" role="button" aria-pressed="true">Desarrollo</a>
       </div>
       <div class="col-xs-2">
-        <a data-scroll href="#sec-3" class="btn btn-dark" role="button" aria-pressed="true">Utiliza el down y su funcion</a>
+        <a data-scroll href="#sec-3" class="btn btn-dark" role="button" aria-pressed="true">Hombres</a>
       </div>
       <div class="col-xs-2">
-        <a data-scroll href="#sec-4" class="btn btn-dark" role="button" aria-pressed="true">el corrector del dark</a>
+        <a data-scroll href="#sec-4" class="btn btn-dark" role="button" aria-pressed="true">Mujeres</a>
       </div>
       <div class="col-xs-2">
-        <a data-scroll href="#sec-5" class="btn btn-dark" role="button" aria-pressed="true">incorporacion de integracion</a>
+        <a data-scroll href="#sec-5" class="btn btn-dark" role="button" aria-pressed="true">Finales</a>
       </div>
  
       
